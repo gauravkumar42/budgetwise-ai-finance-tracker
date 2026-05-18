@@ -1,0 +1,20 @@
+# Backend dependencies
+node_modules/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Environment variables
+.env
+frontend/.env
+
+# Build folders
+dist/
+frontend/dist/
+
+# Editor settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
