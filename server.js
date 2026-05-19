@@ -21,12 +21,6 @@ const allowedOrigins = [
   "https://budgetwise-ai-finance-tracker.vercel.app", // Production frontend
 ];
 
-// ── Allowed Origins ──────────────────────────
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://budgetwise-ai-finance-tracker.vercel.app",
-];
-
 // ── Global Middleware ────────────────────────
 app.use(
   cors({
@@ -43,7 +37,7 @@ app.use(
 
       // Allow all Vercel preview deployments
       // Example:
-      // https://budgetwise-ai-finance-tracker-abc123-gauravkumar43.vercel.app
+      // https://budgetwise-ai-finance-tracker-abc123.vercel.app
       if (/\.vercel\.app$/.test(origin)) {
         return callback(null, true);
       }
